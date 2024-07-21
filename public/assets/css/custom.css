@@ -1,0 +1,112 @@
+body {
+    font-family: "Inter-Regular";
+}
+span {
+    font-size: 1em;
+}
+.admin-header {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.form-group {
+    margin-bottom: 1.5em;
+}
+.form-group #description,
+.form-group #benefits {
+    height: 100px;
+}
+.form-group .error-validate {
+    color: red;
+    font-size: 0.8em;
+}
+.success-message {
+    position: relative;
+}
+.success-message .toast {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.success-message .btn-close {
+    color: #fff;
+}
+.error-message {
+    position: relative;
+}
+.error-message .toast {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #dc3545;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.error-message .btn-close {
+    color: #fff;
+}
+.manage-job .pagination .page-item span {
+    font-size: 1em;
+}
+.manage-job .pagination .page-item.disabled {
+    cursor: not-allowed;
+}
+.manage-job .table .list-candidate {
+    display: block;
+}
+.manage-job .table .btn-action .edit-button,
+.manage-job .table .btn-action .delete-button {
+    display: block;
+    width: 100%;
+}
+.card-profile {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.card-profile .avt {
+    width: 150px;
+    height: 150px;
+}
+.card-profile .profile-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+.truncate-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+.candidate-profile {
+    display: block;
+}
+.card-body h3 {
+    padding: 0 !important;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
+.card-body .job-item {
+    display: flex;
+}
+.card-body .location {
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+}
